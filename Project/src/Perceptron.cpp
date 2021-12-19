@@ -39,8 +39,8 @@ int main()
     Perceptron* p = new Perceptron(2);
 
 
-    /*
-     AND GATE
+    
+ /*    AND GATE*/
 
      p->set_weights({ 10,10,-15 });
 
@@ -48,7 +48,7 @@ int main()
      std::cout << p->output({ 0,0 }) << std::endl;
      std::cout << p->output({ 0,1 }) << std::endl;
      std::cout << p->output({ 1,0 }) << std::endl;
-     std::cout << p->output({ 1,1 }) << std::endl;*/
+     std::cout << p->output({ 1,1 }) << std::endl;
 
 
      /*   OR GATE
