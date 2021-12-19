@@ -15,5 +15,5 @@ public:
 	std::vector<double> weights;
 	void set_weights(std::vector<double> w_init);
 	double step_function(double x);
-	double output(std::vector<double> inputs);
+	double output(std::vector<double>inputs);
 };

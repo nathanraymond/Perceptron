@@ -25,8 +25,9 @@ double Perceptron::output(std::vector<double> inputs) {
     return step_function(weighted_sum);
 }
 
-double Perceptron::step_function(double x) {
-    if (x >= 0) {
+double Perceptron::step_function(double weighted_sum) {
+    // weighted_sum is a 1D tensor
+    if (weighted_sum >= 0) {
         return 1;
     }
     else {
