@@ -51,7 +51,7 @@ int main()
      std::cout << p->output({ 1,1 }) << std::endl;*/
 
 
-     /*   OR GATE*/
+     /*   OR GATE
 
     p->set_weights({ 15,15,-10 });
 
@@ -59,6 +59,6 @@ int main()
     std::cout << p->output({ 0,0 }) << std::endl;
     std::cout << p->output({ 0,1 }) << std::endl;
     std::cout << p->output({ 1,0 }) << std::endl;
-    std::cout << p->output({ 1,1 }) << std::endl;
+    std::cout << p->output({ 1,1 }) << std::endl;*/
 
 }
